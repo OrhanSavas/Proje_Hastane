@@ -33,7 +33,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.MskTC = new System.Windows.Forms.MaskedTextBox();
             this.TxtSifre = new System.Windows.Forms.TextBox();
-            this.LnkUyeOl = new System.Windows.Forms.LinkLabel();
             this.BtnGirisYap = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -83,16 +82,6 @@
             this.TxtSifre.Size = new System.Drawing.Size(148, 31);
             this.TxtSifre.TabIndex = 4;
             // 
-            // LnkUyeOl
-            // 
-            this.LnkUyeOl.AutoSize = true;
-            this.LnkUyeOl.Location = new System.Drawing.Point(353, 152);
-            this.LnkUyeOl.Name = "LnkUyeOl";
-            this.LnkUyeOl.Size = new System.Drawing.Size(62, 23);
-            this.LnkUyeOl.TabIndex = 5;
-            this.LnkUyeOl.TabStop = true;
-            this.LnkUyeOl.Text = "Üye Ol";
-            // 
             // BtnGirisYap
             // 
             this.BtnGirisYap.Location = new System.Drawing.Point(236, 183);
@@ -107,10 +96,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.BackColor = System.Drawing.Color.LightSeaGreen;
             this.ClientSize = new System.Drawing.Size(521, 270);
             this.Controls.Add(this.BtnGirisYap);
-            this.Controls.Add(this.LnkUyeOl);
             this.Controls.Add(this.TxtSifre);
             this.Controls.Add(this.MskTC);
             this.Controls.Add(this.label3);
@@ -132,7 +120,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.MaskedTextBox MskTC;
         private System.Windows.Forms.TextBox TxtSifre;
-        private System.Windows.Forms.LinkLabel LnkUyeOl;
         private System.Windows.Forms.Button BtnGirisYap;
     }
 }
