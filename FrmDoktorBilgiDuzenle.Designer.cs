@@ -36,6 +36,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.TxtSifre = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.CmbBrans = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.BtnBilgiGuncelle = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // TxtAd
@@ -85,7 +88,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(19, 115);
+            this.label2.Location = new System.Drawing.Point(25, 115);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(100, 19);
             this.label2.TabIndex = 27;
@@ -93,7 +96,7 @@
             // 
             // TxtSifre
             // 
-            this.TxtSifre.Location = new System.Drawing.Point(131, 142);
+            this.TxtSifre.Location = new System.Drawing.Point(131, 175);
             this.TxtSifre.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TxtSifre.Name = "TxtSifre";
             this.TxtSifre.Size = new System.Drawing.Size(148, 27);
@@ -102,17 +105,48 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(76, 150);
+            this.label3.Location = new System.Drawing.Point(81, 183);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 19);
             this.label3.TabIndex = 33;
             this.label3.Text = "Şifre:";
             // 
+            // CmbBrans
+            // 
+            this.CmbBrans.FormattingEnabled = true;
+            this.CmbBrans.Location = new System.Drawing.Point(131, 141);
+            this.CmbBrans.Name = "CmbBrans";
+            this.CmbBrans.Size = new System.Drawing.Size(148, 27);
+            this.CmbBrans.TabIndex = 35;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(77, 149);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(50, 19);
+            this.label5.TabIndex = 36;
+            this.label5.Text = "Branş:";
+            // 
+            // BtnBilgiGuncelle
+            // 
+            this.BtnBilgiGuncelle.BackColor = System.Drawing.Color.Salmon;
+            this.BtnBilgiGuncelle.Location = new System.Drawing.Point(131, 209);
+            this.BtnBilgiGuncelle.Name = "BtnBilgiGuncelle";
+            this.BtnBilgiGuncelle.Size = new System.Drawing.Size(148, 37);
+            this.BtnBilgiGuncelle.TabIndex = 37;
+            this.BtnBilgiGuncelle.Text = "Guncelle";
+            this.BtnBilgiGuncelle.UseVisualStyleBackColor = false;
+            // 
             // FrmDoktorBilgiDuzenle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(399, 658);
+            this.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.ClientSize = new System.Drawing.Size(376, 308);
+            this.Controls.Add(this.BtnBilgiGuncelle);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.CmbBrans);
             this.Controls.Add(this.TxtSifre);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.TxtAd);
@@ -122,7 +156,7 @@
             this.Controls.Add(this.MskTC);
             this.Controls.Add(this.label2);
             this.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmDoktorBilgiDuzenle";
             this.Text = "FrmDoktorBilgiDuzenle";
             this.ResumeLayout(false);
@@ -140,5 +174,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox TxtSifre;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ComboBox CmbBrans;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button BtnBilgiGuncelle;
     }
 }
