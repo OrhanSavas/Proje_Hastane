@@ -1,6 +1,6 @@
 ﻿namespace Proje_Hastane
 {
-    partial class FrmSekreterDetay
+    partial class FrmHastaDetay
     {
         /// <summary>
         /// Required designer variable.

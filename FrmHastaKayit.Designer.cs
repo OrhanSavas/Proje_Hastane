@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmHastaKayit));
             this.TxtSifre = new System.Windows.Forms.TextBox();
             this.MskTC = new System.Windows.Forms.MaskedTextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -45,26 +46,26 @@
             // 
             // TxtSifre
             // 
-            this.TxtSifre.Location = new System.Drawing.Point(160, 183);
+            this.TxtSifre.Location = new System.Drawing.Point(117, 159);
             this.TxtSifre.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TxtSifre.Name = "TxtSifre";
             this.TxtSifre.Size = new System.Drawing.Size(148, 29);
-            this.TxtSifre.TabIndex = 8;
+            this.TxtSifre.TabIndex = 5;
             // 
             // MskTC
             // 
-            this.MskTC.Location = new System.Drawing.Point(160, 109);
+            this.MskTC.Location = new System.Drawing.Point(117, 85);
             this.MskTC.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MskTC.Mask = "00000000000";
             this.MskTC.Name = "MskTC";
             this.MskTC.Size = new System.Drawing.Size(148, 29);
-            this.MskTC.TabIndex = 7;
+            this.MskTC.TabIndex = 3;
             this.MskTC.ValidatingType = typeof(int);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(105, 191);
+            this.label3.Location = new System.Drawing.Point(62, 167);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(45, 21);
             this.label3.TabIndex = 6;
@@ -73,7 +74,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(48, 117);
+            this.label2.Location = new System.Drawing.Point(5, 93);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(102, 21);
             this.label2.TabIndex = 5;
@@ -81,16 +82,16 @@
             // 
             // TxtSoyad
             // 
-            this.TxtSoyad.Location = new System.Drawing.Point(160, 72);
+            this.TxtSoyad.Location = new System.Drawing.Point(117, 48);
             this.TxtSoyad.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TxtSoyad.Name = "TxtSoyad";
             this.TxtSoyad.Size = new System.Drawing.Size(148, 29);
-            this.TxtSoyad.TabIndex = 10;
+            this.TxtSoyad.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(98, 80);
+            this.label1.Location = new System.Drawing.Point(55, 56);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(56, 21);
             this.label1.TabIndex = 9;
@@ -98,16 +99,16 @@
             // 
             // TxtAd
             // 
-            this.TxtAd.Location = new System.Drawing.Point(160, 35);
+            this.TxtAd.Location = new System.Drawing.Point(117, 11);
             this.TxtAd.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TxtAd.Name = "TxtAd";
             this.TxtAd.Size = new System.Drawing.Size(148, 29);
-            this.TxtAd.TabIndex = 12;
+            this.TxtAd.TabIndex = 1;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(118, 43);
+            this.label4.Location = new System.Drawing.Point(75, 19);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(32, 21);
             this.label4.TabIndex = 11;
@@ -116,7 +117,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(88, 154);
+            this.label5.Location = new System.Drawing.Point(45, 130);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(62, 21);
             this.label5.TabIndex = 13;
@@ -124,12 +125,12 @@
             // 
             // MskTelefon
             // 
-            this.MskTelefon.Location = new System.Drawing.Point(160, 146);
+            this.MskTelefon.Location = new System.Drawing.Point(117, 122);
             this.MskTelefon.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MskTelefon.Mask = "(999) 000-0000";
             this.MskTelefon.Name = "MskTelefon";
             this.MskTelefon.Size = new System.Drawing.Size(148, 29);
-            this.MskTelefon.TabIndex = 15;
+            this.MskTelefon.TabIndex = 4;
             // 
             // CmbCinsiyet
             // 
@@ -137,15 +138,15 @@
             this.CmbCinsiyet.Items.AddRange(new object[] {
             "Erkek",
             "Kadın"});
-            this.CmbCinsiyet.Location = new System.Drawing.Point(160, 219);
+            this.CmbCinsiyet.Location = new System.Drawing.Point(117, 195);
             this.CmbCinsiyet.Name = "CmbCinsiyet";
             this.CmbCinsiyet.Size = new System.Drawing.Size(148, 29);
-            this.CmbCinsiyet.TabIndex = 16;
+            this.CmbCinsiyet.TabIndex = 6;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(86, 227);
+            this.label6.Location = new System.Drawing.Point(43, 203);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(68, 21);
             this.label6.TabIndex = 17;
@@ -154,19 +155,22 @@
             // BtnKayitYap
             // 
             this.BtnKayitYap.BackColor = System.Drawing.Color.PaleGreen;
-            this.BtnKayitYap.Location = new System.Drawing.Point(160, 254);
+            this.BtnKayitYap.Location = new System.Drawing.Point(117, 230);
             this.BtnKayitYap.Name = "BtnKayitYap";
             this.BtnKayitYap.Size = new System.Drawing.Size(148, 37);
             this.BtnKayitYap.TabIndex = 18;
             this.BtnKayitYap.Text = "Kayıt Yap";
             this.BtnKayitYap.UseVisualStyleBackColor = false;
+            this.BtnKayitYap.Click += new System.EventHandler(this.BtnKayitYap_Click);
             // 
             // FrmHastaKayit
             // 
+            this.AcceptButton = this.BtnKayitYap;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.Teal;
-            this.ClientSize = new System.Drawing.Size(421, 385);
+            this.ClientSize = new System.Drawing.Size(282, 282);
             this.Controls.Add(this.BtnKayitYap);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.CmbCinsiyet);
@@ -181,9 +185,11 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MaximizeBox = false;
             this.Name = "FrmHastaKayit";
-            this.Text = "FrmHastaKayit";
+            this.Text = "Hasta Kayıt";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -88,11 +88,11 @@
     <Compile Include="FrmHastaDeyat.Designer.cs">
       <DependentUpon>FrmHastaDeyat.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmHastaGiris.cs">
+    <Compile Include="FrmSekreterGiris.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmHastaGiris.Designer.cs">
-      <DependentUpon>FrmHastaGiris.cs</DependentUpon>
+    <Compile Include="FrmSekreterGiris.Designer.cs">
+      <DependentUpon>FrmSekreterGiris.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmHastaKayit.cs">
       <SubType>Form</SubType>
@@ -100,17 +100,17 @@
     <Compile Include="FrmHastaKayit.Designer.cs">
       <DependentUpon>FrmHastaKayit.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmSekreterDetay.cs">
+    <Compile Include="FrmHastaDetay.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmSekreterDetay.Designer.cs">
-      <DependentUpon>FrmSekreterDetay.cs</DependentUpon>
+    <Compile Include="FrmHastaDetay.Designer.cs">
+      <DependentUpon>FrmHastaDetay.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmSekreterGiris.cs">
+    <Compile Include="FrmHastaGiris.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmSekreterGiris.Designer.cs">
-      <DependentUpon>FrmSekreterGiris.cs</DependentUpon>
+    <Compile Include="FrmHastaGiris.Designer.cs">
+      <DependentUpon>FrmHastaGiris.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -136,17 +136,17 @@
     <EmbeddedResource Include="FrmHastaDeyat.resx">
       <DependentUpon>FrmHastaDeyat.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmHastaGiris.resx">
-      <DependentUpon>FrmHastaGiris.cs</DependentUpon>
+    <EmbeddedResource Include="FrmSekreterGiris.resx">
+      <DependentUpon>FrmSekreterGiris.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmHastaKayit.resx">
       <DependentUpon>FrmHastaKayit.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmSekreterDetay.resx">
-      <DependentUpon>FrmSekreterDetay.cs</DependentUpon>
+    <EmbeddedResource Include="FrmHastaDetay.resx">
+      <DependentUpon>FrmHastaDetay.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmSekreterGiris.resx">
-      <DependentUpon>FrmSekreterGiris.cs</DependentUpon>
+    <EmbeddedResource Include="FrmHastaGiris.resx">
+      <DependentUpon>FrmHastaGiris.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
