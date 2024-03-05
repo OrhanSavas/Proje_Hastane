@@ -10,7 +10,7 @@ namespace Proje_Hastane
     {
         public SqlConnection baglanti() 
         {
-            SqlConnection baglan = new SqlConnection("Data Source=Dante\\SQLEXPRESS;Initial Catalog=HastaneProje;Integrated Security=True;Trust Server Certificate=True");
+            SqlConnection baglan = new SqlConnection("Data Source=Dante\\SQLEXPRESS;Initial Catalog=HastaneProje;Integrated Security=True;");
             baglan.Open();
             return baglan;
         }

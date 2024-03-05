@@ -47,6 +47,7 @@
             this.BtnGirisYap.TabIndex = 12;
             this.BtnGirisYap.Text = "Giriş Yap";
             this.BtnGirisYap.UseVisualStyleBackColor = true;
+            this.BtnGirisYap.Click += new System.EventHandler(this.BtnGirisYap_Click);
             // 
             // TxtSifre
             // 
@@ -55,6 +56,7 @@
             this.TxtSifre.Name = "TxtSifre";
             this.TxtSifre.Size = new System.Drawing.Size(148, 27);
             this.TxtSifre.TabIndex = 11;
+            this.TxtSifre.UseSystemPasswordChar = true;
             // 
             // MskTC
             // 
