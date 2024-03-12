@@ -33,6 +33,7 @@ namespace Proje_Hastane
             if (dr.Read())
             {
                 FrmHastaDetay fr = new FrmHastaDetay();
+                fr.tc = MskTC.Text;
                 fr.Show();
                 this.Hide();
             }

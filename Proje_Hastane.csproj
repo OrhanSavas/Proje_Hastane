@@ -82,11 +82,11 @@
     <Compile Include="FrmGirisler.Designer.cs">
       <DependentUpon>FrmGirisler.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmHastaDeyat.cs">
+    <Compile Include="FrmHastaDetay.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmHastaDeyat.Designer.cs">
-      <DependentUpon>FrmHastaDeyat.cs</DependentUpon>
+    <Compile Include="FrmHastaDetay.Designer.cs">
+      <DependentUpon>FrmHastaDetay.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmSekreterGiris.cs">
       <SubType>Form</SubType>
@@ -100,11 +100,11 @@
     <Compile Include="FrmHastaKayit.Designer.cs">
       <DependentUpon>FrmHastaKayit.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmHastaDetay.cs">
+    <Compile Include="FrmSekreterDetay.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmHastaDetay.Designer.cs">
-      <DependentUpon>FrmHastaDetay.cs</DependentUpon>
+    <Compile Include="FrmSekreterDetay.Designer.cs">
+      <DependentUpon>FrmSekreterDetay.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmHastaGiris.cs">
       <SubType>Form</SubType>
@@ -133,8 +133,8 @@
     <EmbeddedResource Include="FrmGirisler.resx">
       <DependentUpon>FrmGirisler.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmHastaDeyat.resx">
-      <DependentUpon>FrmHastaDeyat.cs</DependentUpon>
+    <EmbeddedResource Include="FrmHastaDetay.resx">
+      <DependentUpon>FrmHastaDetay.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmSekreterGiris.resx">
       <DependentUpon>FrmSekreterGiris.cs</DependentUpon>
@@ -142,8 +142,8 @@
     <EmbeddedResource Include="FrmHastaKayit.resx">
       <DependentUpon>FrmHastaKayit.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmHastaDetay.resx">
-      <DependentUpon>FrmHastaDetay.cs</DependentUpon>
+    <EmbeddedResource Include="FrmSekreterDetay.resx">
+      <DependentUpon>FrmSekreterDetay.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmHastaGiris.resx">
       <DependentUpon>FrmHastaGiris.cs</DependentUpon>

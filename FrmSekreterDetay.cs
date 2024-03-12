@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Proje_Hastane
 {
-    public partial class FrmHastaDeyat : Form
+    public partial class FrmSekreterDetay : Form
     {
-        public FrmHastaDeyat()
+        public FrmSekreterDetay()
         {
             InitializeComponent();
         }
